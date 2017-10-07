@@ -1,0 +1,28 @@
+# practice.cpp2
+#include <iostream>
+  #include <math.h>
+  using namespace std;
+  int main()
+  {
+      int a,b,c,d,e,s,f,g,h;
+      cout<<"enter the marks of 1st subject \n";
+      cin>>a;
+      cout<<"enter the marks of 2nd subject \n";
+      cin>>b;
+      cout<<"enter the marks of 3rd subject \n";
+      cin>>c;
+      cout<<"enter the marks of 4th subject \n";
+      cin>>d;
+      cout<<"enter the marks of 5th subject \n";
+      cin>>e;
+      cout<<"enter highest marks \n";
+      cin>>s;
+
+      f=a+b+c+d+e;
+      g=f/5;
+      h=f/s*100;
+      cout<<"total marks obtained = "<<f<<endl;
+      cout<<"average marks of all subjects = "<<g<<endl;
+      cout<<"percantage is = "<<h<<endl;
+      return 0;
+  }
