@@ -1,16 +1,1 @@
-# practice.cpp1
-#include <iostream>
-using namespace std;
-int main()
-{
-   int r,d,c,a;
-   cout<<"enter the radius of circle /n";
-   cin>>r;
-   d=2*r;
-   c=2*3.14*r;
-   a=3.14*r*r;
-   cout<<"the diameter is = "<<d<<endl;
-   cout<<"the circumference of circle is = "<<c<<endl;
-   cout<<"the area of circle is = "<<a<<endl;
-   return 0;
-}
+ 
