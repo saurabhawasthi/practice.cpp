@@ -1,0 +1,17 @@
+# practice.cpp
+#include <iostream>
+ using namespace std;
+ int main()
+ {
+    int n,a;
+    cout<<"enter a number :\n";
+    cin>>n;
+    while(n>0)
+    {
+    cout<<"number of digits are = "<<a<<endl;
+     n=n/10;
+     a++;
+     }
+     return 0;
+
+}
