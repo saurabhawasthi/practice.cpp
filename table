@@ -1,0 +1,17 @@
+# practice.cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+       int i,n,table;
+       cout<<"enter a positive number :\n";
+       cin>>n;
+       for(i=1; i<=10; i++)
+       {
+       table=i*n;
+       cout<<table<<endl;
+       }
+}
+
+
+
