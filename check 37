@@ -1,0 +1,27 @@
+# practice.cppcheck
+ #include <iostream>
+    using namespace std ;
+    int main()
+    {
+        int num,n,r,rem;
+        cout<<"enter a number :\n";
+        cin>>n;
+        num=n;
+            while(n!=0);
+
+            {
+            rem=n%10;
+            r=r*10+rem;
+            n=n/10;
+            }
+
+            if(r==n)
+            {
+              cout<<"entered number is a palindrom :\n";
+            }
+            else
+            {
+            cout<<"entered number is not a palindrom :\n";
+            }
+            return 0;
+         }
